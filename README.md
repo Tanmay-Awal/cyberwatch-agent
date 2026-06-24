@@ -17,7 +17,7 @@
 
 > **CyberWatch is a fully autonomous threat intelligence platform that monitors 4 security data sources 24/7, uses AI to correlate and prioritize vulnerabilities, and delivers real-time alerts to your Telegram — completely free.**
 
-[🚀 Quick Start](#-quick-start) • [🏗️ Architecture](#-architecture) • [📋 Features](#-features) • [🔧 Setup](#-setup-guide) • [📊 Demo](#-demo)
+[🚀 Quick Start](#-quick-start) • [🏗️ Architecture](#️-architecture) • [📋 Features](#-features) • [🔧 Setup](#-setup-guide) • [📊 Demo](#-demo)
 
 </div>
 
@@ -582,24 +582,21 @@ interest in these attack vectors.
 ```
 cyberwatch/
 │
-├── 📄 README.md                    ← You are here
-├── 📄 docker-compose.yml           ← One command setup
-├── 📄 .env.example                 ← Environment variables template
-├── 📄 .gitignore                   ← Git ignore rules
-├── 📄 LICENSE                      ← MIT License
+├── 📄 README.md                        ← You are here
+├── 📄 docker-compose.yml               ← One command setup
+├── 📄 .env.example                     ← Environment variables template
+├── 📄 .gitignore                       ← Git ignore rules
+├── 📄 LICENSE                          ← MIT License
 │
 ├── 📁 workflows/
-│   └── cyberwatch_all_agents.json  ← Complete n8n workflow (import this)
+│   └── cyberwatch_all_agents.json      ← Complete n8n workflow (import this)
 │
 ├── 📁 database/
-│   └── setup.sql                   ← PostgreSQL schema + indexes + views
+│   └── setup.sql                       ← PostgreSQL schema + indexes + views
 │
-├── 📁 docker/
-│   └── docker-compose.yml          ← Docker configuration
-│
-├── 📁 docs/
-│   └── architecture.md              ← Project Architecture
-
+└── 📁 docs/
+    └── ARCHITECTURE.md                 ← Deep architecture explanation
+```
 
 ---
 

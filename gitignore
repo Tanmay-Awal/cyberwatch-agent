@@ -1,0 +1,33 @@
+# Environment files - NEVER commit these
+.env
+.env.local
+.env.production
+
+# n8n data (contains your credentials and execution history)
+n8n_data/
+postgres_data/
+
+# Docker volumes
+volumes/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Node modules (if any scripts)
+node_modules/
+
+# Temp files
+tmp/
+temp/

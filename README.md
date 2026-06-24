@@ -621,7 +621,7 @@ MIT License — see [LICENSE](LICENSE) file.
 ## 👨‍💻 Author
 
 **Tanmay Awal**  
-Final Year B.Tech Computer Science  
+Pre-Final Year B.Tech Computer Science  
 [LinkedIn](https://www.linkedin.com/in/tanmay-awal-548b0a322) • [GitHub](https://github.com/Tanmay-Awal)
 
 ---

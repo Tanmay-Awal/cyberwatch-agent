@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="docs/assets/banner.png" alt="CyberWatch Banner" width="100%">
-
 # 🛡️ CyberWatch
 ### AI-Powered Threat Intelligence Aggregator
 
@@ -600,53 +598,8 @@ cyberwatch/
 │   └── docker-compose.yml          ← Docker configuration
 │
 ├── 📁 docs/
-│   ├── SETUP_GUIDE.md              ← Detailed setup instructions
-│   ├── ARCHITECTURE.md             ← Deep architecture explanation
-│   ├── AGENTS.md                   ← How each agent works
-│   └── assets/
-│       └── banner.png              ← Project banner
-│
-└── 📁 scripts/
-    └── setup.sh                    ← Automated setup script (Linux/Mac)
-```
+│   └── architecture.md              ← Project Architecture
 
----
-
-## 🗺️ Roadmap
-
-### ✅ Phase 1 — MVP (Complete)
-- [x] Multi-source CVE ingestion (4 sources)
-- [x] AI classification with Groq
-- [x] EPSS scoring integration
-- [x] Composite priority scoring
-- [x] Gemini threat correlation
-- [x] MITRE ATT&CK mapping
-- [x] Threat actor profiling
-- [x] Telegram instant alerts
-- [x] Daily digest reports
-- [x] PostgreSQL persistence
-
-### 🔄 Phase 2 — Enhanced Intelligence
-- [ ] Qdrant vector database for semantic CVE search
-- [ ] Neo4j threat graph (CVE → Actor → Technique relationships)
-- [ ] Natural language query interface
-- [ ] Historical trend analysis
-- [ ] Weekly trend reports
-
-### 🚀 Phase 3 — Production Scale
-- [ ] Grafana monitoring dashboard
-- [ ] REST API for external integrations
-- [ ] Slack integration
-- [ ] Email digest option
-- [ ] Asset correlation (map CVEs to YOUR software)
-- [ ] Cloud deployment (Railway/Render)
-
-### 💰 Phase 4 — SaaS Potential
-- [ ] Multi-tenant architecture
-- [ ] Web dashboard UI
-- [ ] Custom alert rules engine
-- [ ] STIX/TAXII export
-- [ ] Jira/Linear integration for auto-ticketing
 
 ---
 
@@ -660,8 +613,6 @@ Contributions are welcome! Here's how:
 4. Push: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
-
 ---
 
 ## 📜 License
@@ -672,9 +623,9 @@ MIT License — see [LICENSE](LICENSE) file.
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**Tanmay Awal**  
 Final Year B.Tech Computer Science  
-[LinkedIn](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername) • [Twitter](https://twitter.com/yourhandle)
+[LinkedIn](https://www.linkedin.com/in/tanmay-awal-548b0a322) • [GitHub](https://github.com/Tanmay-Awal)
 
 ---
 
